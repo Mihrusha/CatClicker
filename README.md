@@ -1,1 +1,3 @@
 # CatClicker
+
+Idle clicking game
