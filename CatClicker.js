@@ -3,9 +3,9 @@ let count = 0;
 function CountClicker() {
     let counterDisplayElem = document.querySelector('.counter-display');
     count++;
-    
+
     // alert("Кот номер " + count);
-    
+
     console.log(count);
     counterDisplayElem.innerHTML = count;
     if (count == 10) {
@@ -31,6 +31,9 @@ function CountClicker() {
     }
     if (count == 150) {
         Cat8();
+    }
+    if (count == 170) {
+        Cat9();
     }
 }
 
@@ -83,5 +86,10 @@ function Cat7() {
 function Cat8() {
 
     var elem = document.getElementById("cat8");
+    elem.style.visibility = "visible";
+}
+function Cat9() {
+
+    var elem = document.getElementById("cat9");
     elem.style.visibility = "visible";
 }
