@@ -1,11 +1,13 @@
 let count = 0;
 
+setTimeout(CountClicker,5000);
 function CountClicker() {
     let counterDisplayElem = document.querySelector('.counter-display');
-    count++;
-
+    
+   count++
+  
     // alert("Кот номер " + count);
-
+   
     console.log(count);
     counterDisplayElem.innerHTML = count;
     if (count == 10) {
@@ -36,7 +38,6 @@ function CountClicker() {
         Cat9();
     }
 }
-
 
 
 
